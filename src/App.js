@@ -1,24 +1,33 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import NavBar from './Compoments/Common/NavBar';
+import Footer from './Compoments/Common/Footer';
+import { Route, Routes } from 'react-router-dom';
+import Home from './Compoments/Routerpage/Home';
+import Solution from './Compoments/Routerpage/Solution';
+import Cases from './Compoments/Routerpage/Cases';
+import AboutUs from './Compoments/Routerpage/AboutUs';
+import Bloglink from './Compoments/Routerpage/Bloglink';
+import Contact from './Compoments/Routerpage/Contact';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar />
+      <Routes>
+        <Route path='/' element={<Home />}></Route>
+        <Route path='/solution' exact element={<Solution />}></Route>
+        <Route path='/case' element={<Cases />}></Route>
+        <Route path='/aboutus' element={<AboutUs />}></Route>
+        <Route path='/blog' element={<Bloglink />}></Route>
+        <Route path='/contactus' element={<Contact />}></Route>
+      </Routes>
+
+      <Footer />
+    </>
   );
 }
 

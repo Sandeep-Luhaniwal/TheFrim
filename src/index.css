@@ -1,13 +1,252 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
+
+/* 
+font-family: 'Lora', serif;
+font-family: 'Nunito', sans-serif; */
+:root {
+  --ff-primary: 'Nunito', sans-serif;
+  --ff-secondary: 'Lora', serif;
+
+  --fs-xs: 10px;
+  --fs-1xs: 12px;
+  --fs-2xs: 14px;
+  --fs-sm: 15px;
+  --fs-2sm: 15px;
+  --fs-md: 16px;
+  --fs-2md: 18px;
+  --fs-3md: 20px;
+  --fs-lg: 24px;
+  --fs-2lg: 30px;
+
+  --primary-color: #faca10;
+  --white-color: #FFFFFF;
+  --black-color: #000000;
+  --secondary-color: #1e1e1e;
+  --dark-color: #b0b0b0;
+  --light-color: #F7F7F7;
+  --section-color: #FBFBFB;
+  --text-color: #C4C4C4;
+  --gray-color: #B0B0B0;
+  --gray-400-color: #A5A5A5;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-text {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-md);
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  color: var(--secondary-color) !important;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.main-heading {
+  color: var(--secondary-color);
+  font-family: var(--ff-primary);
+  font-size: var(--fs-2lg);
+  font-weight: 900;
+  letter-spacing: 0.96px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+  margin-bottom: 0;
+}
+
+.sub-heading {
+  color: var(--secondary-color);
+  font-family: var(--ff-primary);
+  font-size: var(--fs-lg);
+  font-weight: 900;
+  letter-spacing: 0.88px;
+  margin-bottom: 0;
+}
+
+.normal-para {
+  color: var(--secondary-color);
+  font-family: var(--ff-secondary);
+  font-size: var(--fs-md);
+  font-weight: 400;
+  letter-spacing: 0.36px;
+  margin-bottom: 0 !important;
+}
+
+.nav-btn {
+  color: var(--white-color);
+  font-family: var(--ff-primary);
+  font-size: var(--fs-md);
+  font-weight: 700;
+  letter-spacing: 0.9px;
+  border-radius: 5px;
+  background: var(--primary-color);
+  box-shadow: 0px 10px 40px -12px rgba(250, 202, 16, 0.35);
+  border: 2px solid var(--primary-color);
+  transition: all linear 200ms;
+}
+
+.nav-btn:hover {
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
+.tab-btn {
+  border-radius: 5px;
+  border: 2px solid var(--light-color);
+  box-shadow: 0px 10px 40px -12px rgba(196, 196, 196, 0.35);
+  background: var(--white-color);
+  color: var(--text-color);
+  font-family: var(--primary-color);
+  font-size: var(--fs-md);
+  font-weight: 700;
+  letter-spacing: 0.9px;
+}
+
+.seacrh,
+.seacrh::placeholder {
+  background: var(--white-color);
+  color: var(--text-color);
+  font-family: var(--primary-color);
+  font-size: var(--fs-md);
+  font-weight: 700;
+  letter-spacing: 0.9px;
+  outline: none;
+}
+
+
+.tab-content-btn {
+  border-radius: 5px;
+  border: 2px solid var(--secondary-color);
+  background: var(--secondary-color);
+  box-shadow: 0px 10px 40px -12px rgba(30, 30, 30, 0.35);
+  color: var(--white-color);
+  font-family: var(--ff-primary);
+  font-size: var(--fs-md);
+  font-weight: 700;
+  letter-spacing: 0.9px;
+}
+
+.tab-content-btn:hover {
+  background-color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+
+.section-color {
+  background-color: var(--section-color);
+}
+
+.bg_primary {
+  background-color: var(--primary-color);
+}
+
+.footer-privary {
+  color: var(--gray-400-color);
+  font-family: var(--primary-color);
+  font-size: var(--fs-1xs);
+  font-weight: 400;
+  letter-spacing: 3.12px;
+}
+
+.form-name {
+  color: var(--gray-400-color);
+  font-family: var(--primary-color);
+  font-size: var(--fs-2xs);
+  font-weight: 400;
+  letter-spacing: 0.28px;
+}
+
+.sub-para {
+  font-size: var(--fs-3md);
+  color: var(--secondary-color);
+  font-family: var(--ff-primary);
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: 0;
+}
+
+.blog-heading {
+  color: var(--secondary-color);
+  font-family: var(--ff-primary);
+  font-size: var(--fs-2md);
+  font-weight: 700;
+}
+
+.name-people {
+  color: var(--secondary-color);
+  font-family: var(--ff-primary);
+  font-size: var(--fs-2xs);
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.blog-time {
+  color: var(--gray-color);
+  font-family: var(--ff-primary);
+  font-size: var(--fs-xs);
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.medial-para {
+  color: var(--secondary-color);
+  margin-bottom: 0;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-2md);
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+
+.form-input {
+  color: var(--secondary-color);
+  font-family: var(--ff-primary);
+  font-size: var(--fs-md);
+  font-weight: 700;
+  letter-spacing: 0.36px;
+}
+
+::placeholder {
+  color: var(--secondary-color);
+  font-family: var(--ff-primary);
+  font-size: var(--fs-md);
+  font-weight: 700;
+  letter-spacing: 0.36px;
+}
+
+@media (min-width:576px) {
+  :root {
+    --fs-xs: 10px;
+    --fs-2xs: 14px;
+    --fs-sm: 15px;
+    --fs-2sm: 16px;
+    --fs-md: 16px;
+    --fs-2md: 19px;
+    --fs-3md: 24px;
+    --fs-lg: 32px;
+    --fs-2lg: 36px;
+  }
+}
+
+@media (min-width:768px) {
+  :root {
+    --fs-xs: 10px;
+    --fs-2xs: 14px;
+    --fs-sm: 16px;
+    --fs-2sm: 16px;
+    --fs-md: 16px;
+    --fs-2md: 21px;
+    --fs-3md: 28px;
+    --fs-lg: 36px;
+    --fs-2lg: 40px;
+  }
+}
+
+@media (min-width:992px) {
+  :root {
+    --fs-xs: 10px;
+    --fs-2xs: 14px;
+    --fs-sm: 16px;
+    --fs-2sm: 17px;
+    --fs-md: 18px;
+    --fs-2md: 24px;
+    --fs-3md: 30px;
+    --fs-lg: 44px;
+    --fs-2lg: 48px;
+  }
 }
