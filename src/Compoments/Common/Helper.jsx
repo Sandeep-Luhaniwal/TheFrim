@@ -22,7 +22,6 @@ import tabimg7 from '../../assets/images/webp/tab_img7.png'
 import tabimg8 from '../../assets/images/webp/tab_img8.png'
 import tabimg9 from '../../assets/images/webp/tab_img9.png'
 
-
 export const BlogCard = [
     {
         id: 1,
@@ -32,6 +31,8 @@ export const BlogCard = [
         teamName: "Alex Liones",
         peopleImg: People1,
         btn: "Read More",
+        data: "First id 1",
+        paragrah: "Lorem Ipsum is simply text of the printing and type setting industry. make a type specimen. Lorem Ipsum is simply text of the printing and type setting industry. make a type specimen. "
     },
     {
         id: 2,
@@ -41,6 +42,8 @@ export const BlogCard = [
         teamName: "Alex Liones",
         peopleImg: People2,
         btn: "Read More",
+        data: "First id 2",
+        paragrah: "Lorem Ipsum is simply text of the printing and type setting industry. make a type specimen. Lorem Ipsum is simply text of the printing and type setting industry. make a type specimen. "
     },
     {
         id: 3,
@@ -50,6 +53,41 @@ export const BlogCard = [
         teamName: "Alex Liones",
         peopleImg: People3,
         btn: "Read More",
+        data: "First id 3",
+        paragrah: "Lorem Ipsum is simply text of the printing and type setting industry. make a type specimen. Lorem Ipsum is simply text of the printing and type setting industry. make a type specimen. "
+    },
+    {
+        id: 4,
+        img: tabimg4,
+        heading: "Lorem Ipsum is ",
+        para: "Lorem Ipsum is simply text of the printing and type setting industry. make a type specimen. ",
+        teamName: "Alex Liones",
+        peopleImg: People3,
+        btn: "Read More",
+        data: "First id 1",
+        paragrah: "Lorem Ipsum is simply text of the printing and type setting industry. make a type specimen. Lorem Ipsum is simply text of the printing and type setting industry. make a type specimen. "
+    },
+    {
+        id: 5,
+        img: tabimg5,
+        heading: "Lorem Ipsum is ",
+        para: "Lorem Ipsum is simply text of the printing and type setting industry. make a type specimen. ",
+        teamName: "Alex Liones",
+        peopleImg: People2,
+        btn: "Read More",
+        data: "First id 2",
+        paragrah: "Lorem Ipsum is simply text of the printing and type setting industry. make a type specimen. Lorem Ipsum is simply text of the printing and type setting industry. make a type specimen. "
+    },
+    {
+        id: 6,
+        img: tabimg6,
+        heading: "Lorem Ipsum is ",
+        para: "Lorem Ipsum is simply text of the printing and type setting industry. make a type specimen. ",
+        teamName: "Alex Liones",
+        peopleImg: People3,
+        btn: "Read More",
+        data: "First id 3",
+        paragrah: "Lorem Ipsum is simply text of the printing and type setting industry. make a type specimen. Lorem Ipsum is simply text of the printing and type setting industry. make a type specimen. "
     },
 ]
 

@@ -1,10 +1,13 @@
 import React from 'react'
+import Partners from '../Common/Partners'
+import Clinet from '../Clinet'
 
 const Bloglink = () => {
   return (
-      <>
-          <div>Bloglink</div>
-      </>
+    <>
+      <Clinet />
+      <Partners />
+    </>
   )
 }
 

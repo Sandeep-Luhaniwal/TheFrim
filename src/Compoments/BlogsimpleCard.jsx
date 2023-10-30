@@ -1,7 +1,6 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
 import { BlogsCard } from './Common/Helper'
-import { TimeIcon } from './Icon'
 
 const BlogsimpleCard = () => {
     return (

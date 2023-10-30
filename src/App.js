@@ -11,24 +11,25 @@ import Cases from './Compoments/Routerpage/Cases';
 import AboutUs from './Compoments/Routerpage/AboutUs';
 import Bloglink from './Compoments/Routerpage/Bloglink';
 import Contact from './Compoments/Routerpage/Contact';
+import BacktoTop from './Compoments/BacktoTop';
 
 function App() {
 
-  return (
-    <>
-      <NavBar />
-      <Routes>
-        <Route path='/' element={<Home />}></Route>
-        <Route path='/solution' exact element={<Solution />}></Route>
-        <Route path='/case' element={<Cases />}></Route>
-        <Route path='/aboutus' element={<AboutUs />}></Route>
-        <Route path='/blog' element={<Bloglink />}></Route>
-        <Route path='/contactus' element={<Contact />}></Route>
-      </Routes>
-
-      <Footer />
-    </>
-  );
+    return (
+        <>
+            <NavBar />
+            <Routes>
+                <Route path='/' element={< Home />}></Route>
+                <Route path='/solution' exact element={<Solution />}></Route>
+                <Route path='/case' element={< Cases />}></Route>
+                <Route path='/aboutus' element={<AboutUs />}></Route>
+                <Route path='/blog' element={<Bloglink />}></Route>
+                <Route path='/contactus' element={< Contact />}></Route>
+            </Routes>
+            <BacktoTop/>
+            <Footer />
+        </>
+    );
 }
 
 export default App;

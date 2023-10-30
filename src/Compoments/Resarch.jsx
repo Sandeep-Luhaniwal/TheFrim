@@ -10,7 +10,7 @@ const Resarch = () => {
     }
 
     const [index, setIndex] = useState(0);
-    const { name, id } = data[index];
+    const { name} = data[index];
 
     const prevBtn = () => {
         setIndex((i) => {
@@ -33,7 +33,7 @@ const Resarch = () => {
         }
         return i;
     };
-    console.log(nextBtn);
+
     return (
         <>
             <section className="py-2 py-lg-5">

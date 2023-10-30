@@ -5,6 +5,11 @@ import MainLogo from '../../assets/images/webp/mainLogo.png'
 
 const NavBar = () => {
     const [menu, setMenu] = useState(false);
+    if (menu === true) {
+        document.body.classList.add("overflow-hidden");
+    } else {
+        document.body.classList.remove("overflow-hidden");
+    };
     return (
         <>
             <nav className='position-sticky z-100 top-0 start-0 py-2 bg-white'>

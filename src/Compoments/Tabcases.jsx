@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import tabImg from '../assets/images/webp/Brand.png'
-import tabImg3 from '../assets/images/webp/market-report.png'
 import tabImg1 from '../assets/images/webp/reporting.png'
 import tabImg2 from '../assets/images/webp/data-anilayis.png'
 import { Row, Col } from 'react-bootstrap';
@@ -9,14 +8,10 @@ import { TabCard } from './Common/Helper'
 
 const Tabcases = () => {
     const [activetab, setActivetab] = useState("First");
-    const [show, setShow] = useState(false);
     const [show2, setShow2] = useState(false);
     const [show3, setShow3] = useState(false);
     const [show4, setShow4] = useState(false);
 
-    const btnHandleClick = () => {
-        setShow(!show);
-    }
     const btnHandleClick2 = () => {
         setShow2(!show2);
     }
