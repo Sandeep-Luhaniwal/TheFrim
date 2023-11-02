@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
-import imgcontent from '../assets/images/webp/blog_img1.png'
+import imgcontent from '../assets/images/webp/blog_img1.webp'
 
 const Aboutlorem = () => {
     return (

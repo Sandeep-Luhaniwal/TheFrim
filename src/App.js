@@ -5,15 +5,16 @@ import "slick-carousel/slick/slick-theme.css";
 import NavBar from './Compoments/Common/NavBar';
 import Footer from './Compoments/Common/Footer';
 import { Route, Routes } from 'react-router-dom';
-import Home from './Compoments/Routerpage/Home';
-import Solution from './Compoments/Routerpage/Solution';
-import Cases from './Compoments/Routerpage/Cases';
-import AboutUs from './Compoments/Routerpage/AboutUs';
-import Bloglink from './Compoments/Routerpage/Bloglink';
-import Contact from './Compoments/Routerpage/Contact';
+import Home from './Compoments/Pages/Home';
+import Solution from './Compoments/Pages/Solution';
+import Cases from './Compoments/Pages/Cases';
+import AboutUs from './Compoments/Pages/AboutUs';
+import Bloglink from './Compoments/Pages/Bloglink';
+import Contact from './Compoments/Pages/Contact';
 import BacktoTop from './Compoments/BacktoTop';
 
 function App() {
+
 
     return (
         <>
@@ -26,7 +27,7 @@ function App() {
                 <Route path='/blog' element={<Bloglink />}></Route>
                 <Route path='/contactus' element={< Contact />}></Route>
             </Routes>
-            <BacktoTop/>
+            <BacktoTop />
             <Footer />
         </>
     );

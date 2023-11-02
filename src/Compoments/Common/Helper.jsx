@@ -1,26 +1,26 @@
-import Team1 from '../../assets/images/webp/blog_img1.png'
-import Team2 from '../../assets/images/webp/blog_img2.png'
-import Team3 from '../../assets/images/webp/blog_img3.png'
-import People1 from '../../assets/images/webp/blog1.png'
-import People2 from '../../assets/images/webp/blog2.png'
-import People3 from '../../assets/images/webp/blog3.png'
-import testimg1 from '../../assets/images/webp/Test_img1.png'
-import testimg2 from '../../assets/images/webp/Test_img2.png'
-import testimg3 from '../../assets/images/webp/Test_img3.png'
-import testimg4 from '../../assets/images/webp/Test_img4.png'
-import testimg5 from '../../assets/images/webp/Test_img5.png'
-import Team4 from '../../assets/images/webp/coaching_img.png'
-import Team5 from '../../assets/images/webp/digit_img.png'
-import Team6 from '../../assets/images/webp/seo_img.png'
-import tabimg1 from '../../assets/images/webp/tab_img1.png'
-import tabimg2 from '../../assets/images/webp/tab_img2.png'
-import tabimg3 from '../../assets/images/webp/tab_img3.png'
-import tabimg4 from '../../assets/images/webp/tab_img4.png'
-import tabimg5 from '../../assets/images/webp/tab_img5.png'
-import tabimg6 from '../../assets/images/webp/tab_img6.png'
-import tabimg7 from '../../assets/images/webp/tab_img7.png'
-import tabimg8 from '../../assets/images/webp/tab_img8.png'
-import tabimg9 from '../../assets/images/webp/tab_img9.png'
+import Team1 from '../../assets/images/webp/blog_img1.webp'
+import Team2 from '../../assets/images/webp/blog_img2.webp'
+import Team3 from '../../assets/images/webp/blog_img3.webp'
+import People1 from '../../assets/images/webp/blog1.webp'
+import People2 from '../../assets/images/webp/blog2.webp'
+import People3 from '../../assets/images/webp/blog3.webp'
+import testimg1 from '../../assets/images/webp/Test_img1.webp'
+import testimg2 from '../../assets/images/webp/Test_img2.webp'
+import testimg3 from '../../assets/images/webp/Test_img3.webp'
+import testimg4 from '../../assets/images/webp/Test_img4.webp'
+import testimg5 from '../../assets/images/webp/Test_img5.webp'
+import Team4 from '../../assets/images/webp/coaching_img.webp'
+import Team5 from '../../assets/images/webp/digit_img.webp'
+import Team6 from '../../assets/images/webp/seo_img.webp'
+import tabimg1 from '../../assets/images/webp/tab_img1.webp'
+import tabimg2 from '../../assets/images/webp/tab_img2.webp'
+import tabimg3 from '../../assets/images/webp/tab_img3.webp'
+import tabimg4 from '../../assets/images/webp/tab_img4.webp'
+import tabimg5 from '../../assets/images/webp/tab_img5.webp'
+import tabimg6 from '../../assets/images/webp/tab_img6.webp'
+import tabimg7 from '../../assets/images/webp/tab_img7.webp'
+import tabimg8 from '../../assets/images/webp/tab_img8.webp'
+import tabimg9 from '../../assets/images/webp/tab_img9.webp'
 
 export const BlogCard = [
     {
@@ -102,14 +102,14 @@ export const BlogsCard = [
     {
         id: 2,
         img: Team5,
-        heading: "Coaching",
+        heading: "Digital Partner",
         para: "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
         btn: "Read More",
     },
     {
         id: 3,
         img: Team6,
-        heading: "Coaching",
+        heading: "SEO",
         para: "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen. ",
         btn: "Read More",
     },

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Col, Row } from 'react-bootstrap'
-import tfimg from '../assets/images/webp/tf_img.png'
+import tfimg from '../assets/images/webp/tf_img.webp'
 import { CoachingIcon, PartnerIcon, SeoIcon } from './Icon';
 
 const Bussiness = () => {

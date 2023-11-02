@@ -1,6 +1,6 @@
-import research_img from '../assets/images/webp/research_img.png'
-import research_img1 from '../assets/images/webp/research_img2.png'
-import research_img2 from '../assets/images/webp/research_img3.png'
+import research_img from '../assets/images/webp/research_img.webp'
+import research_img1 from '../assets/images/webp/research_img2.webp'
+import research_img2 from '../assets/images/webp/research_img3.webp'
 
 
 const names = [

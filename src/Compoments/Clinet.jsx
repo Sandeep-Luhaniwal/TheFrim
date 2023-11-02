@@ -1,9 +1,9 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
 import { QuestionIcon } from './Icon'
-import graph from '../assets/images/webp/clinet-graph.png'
-import graph1 from '../assets/images/webp/client1.png'
-import bgClient from '../assets/images/webp/bg-client.png'
+import graph from '../assets/images/webp/clinet-graph.webp'
+import graph1 from '../assets/images/webp/client1.webp'
+import bgClient from '../assets/images/webp/bg-client.webp'
 
 const Clinet = () => {
     return (

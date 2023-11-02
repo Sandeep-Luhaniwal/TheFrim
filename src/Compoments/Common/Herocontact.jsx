@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
-import herocontant from '../../assets/images/webp/herocontentimg.png'
+import herocontant from '../../assets/images/webp/herocontentimg.webp'
 
 const Herocontact = () => {
     return (

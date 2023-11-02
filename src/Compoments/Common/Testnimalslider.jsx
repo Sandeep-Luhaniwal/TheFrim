@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Slider from 'react-slick';
-import quatoe from '../../assets/images/webp/quatoe.png';
+import quatoe from '../../assets/images/webp/quatoe.webp';
 import { TestCard } from './Helper';
 
 const Testnimalslider = () => {

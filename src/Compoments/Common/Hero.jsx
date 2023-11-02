@@ -1,5 +1,5 @@
 import React from 'react'
-import heroImg from '../../assets/images/webp/hero-main-img.png'
+import heroImg from '../../assets/images/webp/hero-main-img.webp'
 import { Row, Col } from 'react-bootstrap'
 
 const Hero = () => {

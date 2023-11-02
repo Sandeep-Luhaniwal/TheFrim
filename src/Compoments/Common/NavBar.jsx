@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { CrossIcon, MenuIcon, } from '../Icon'
 import { Link, NavLink } from 'react-router-dom';
-import MainLogo from '../../assets/images/webp/mainLogo.png'
+import MainLogo from '../../assets/images/webp/mainLogo.webp'
 
 const NavBar = () => {
     const [menu, setMenu] = useState(false);

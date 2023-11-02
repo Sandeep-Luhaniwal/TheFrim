@@ -1,8 +1,8 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
-import img1 from '../assets/images/webp/solution_img1.png'
-import img2 from '../assets/images/webp/solution_img2.png'
-import img3 from '../assets/images/webp/solution_img3.png'
+import img1 from '../assets/images/webp/solution_img1.webp'
+import img2 from '../assets/images/webp/solution_img2.webp'
+import img3 from '../assets/images/webp/solution_img3.webp'
 
 const Cardsolution = () => {
     return (

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import tabImg from '../assets/images/webp/Brand.png'
-import tabImg1 from '../assets/images/webp/reporting.png'
-import tabImg2 from '../assets/images/webp/data-anilayis.png'
+import tabImg from '../assets/images/webp/Brand.webp'
+import tabImg1 from '../assets/images/webp/reporting.webp'
+import tabImg2 from '../assets/images/webp/data-anilayis.webp'
 import { Row, Col } from 'react-bootstrap';
 import { BellIcon } from './Icon';
 import { TabCard } from './Common/Helper'

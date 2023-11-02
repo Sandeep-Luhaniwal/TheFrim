@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
-import imgcontent from '../../assets/images/webp/contentussection_img.png'
+import imgcontent from '../../assets/images/webp/contentussection_img.webp'
 
 const Contantustext = () => {
     return (

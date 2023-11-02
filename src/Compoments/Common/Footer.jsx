@@ -1,5 +1,5 @@
 import React from 'react'
-import footerLogo from '../../assets/images/webp/mainLogo.png'
+import footerLogo from '../../assets/images/webp/mainLogo.webp'
 import { Col, Row } from 'react-bootstrap'
 import { FacbookIcon, IndinIcon, PrintersIcon, TwitterIcon, YoutubeIcon } from '../Icon'
 import { Link } from 'react-router-dom'

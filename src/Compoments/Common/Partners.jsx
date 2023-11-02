@@ -1,9 +1,9 @@
 import React from 'react'
 import Slider from "react-slick";
-import Patnership_1 from '../../assets/images/webp/window.png'
-import Patnership_2 from '../../assets/images/webp/google.png'
-import Patnership_3 from '../../assets/images/webp/firefox.png'
-import Patnership_4 from '../../assets/images/webp/safari.png'
+import Patnership_1 from '../../assets/images/webp/window.webp'
+import Patnership_2 from '../../assets/images/webp/google.webp'
+import Patnership_3 from '../../assets/images/webp/firefox.webp'
+import Patnership_4 from '../../assets/images/webp/safari.webp'
 
 
 

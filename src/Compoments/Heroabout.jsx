@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
-import aboutHero from '../assets/images/webp/aboutHero_img.png'
+import aboutHero from '../assets/images/webp/aboutHero_img.webp'
 
 const Heroabout = () => {
     return (
