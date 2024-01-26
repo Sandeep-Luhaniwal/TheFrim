@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
-import Fromgoogle from '../Common/Fromgoogle'
-import Contactustext from '../Common/Contantustext'
-import Herocontact from '../Common/Herocontact'
+import Fromgoogle from '../common/Fromgoogle'
+import Contactustext from '../common/Contantustext'
+import Herocontact from '../common/Herocontact'
 import { useLocation } from 'react-router-dom'
 
 const Contact = () => {

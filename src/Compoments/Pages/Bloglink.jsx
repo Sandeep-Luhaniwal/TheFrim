@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Partners from '../Common/Partners'
+import Partners from '../common/Partners'
 import Clinet from '../Clinet'
 import { useLocation } from 'react-router-dom';
 

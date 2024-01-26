@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Testnimalslider from '../Common/Testnimalslider'
+import Testnimalslider from '../common/Testnimalslider'
 import Bussiness from '../Bussiness'
 import BlogsimpleCard from '../BlogsimpleCard'
 import Cardsolution from '../Cardsolution'

@@ -63,7 +63,6 @@ const BlogcardList = ({ data }) => {
                                 <div className="d-flex justify-content-center">
                                     <img src={data.img} alt="img" className='imgMap br-15' />
                                 </div>
-
                             </div>
                         </div>
                     </div>

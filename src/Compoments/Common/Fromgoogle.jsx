@@ -18,7 +18,7 @@ const Fromgoogle = () => {
         const result = e.target.value.replace(/[^0-9]/gi, '');
         setNumber(result);
     };
-    
+
     const handlevalue = (e) => {
         const result = e.target.value.disabled;
         setSelection1(result);
@@ -34,7 +34,7 @@ const Fromgoogle = () => {
 
         emailjs.sendForm(
             "service_vnvpiol",
-            "template_z8n0wyk",
+            "template_7r2ib31",
             form.current,
             "RD5_7T5hu6SDQxhiW"
         )

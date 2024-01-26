@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import CardList from './CardList';
-import { BlogCard } from './Common/Helper';
+import { BlogCard } from './common/Helper';
 
 const Blog = () => {
     const [show, setShow] = useState(false);

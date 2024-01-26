@@ -127,29 +127,29 @@ export const TestCard = [
         id: 2,
         img: testimg2,
         paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took  type scrambled it to make a type specimen book. It has survived not only five centuries,",
-        testname: "Jenny Wilson |",
+        testname: "Sandeep Wilson |",
         course: "Digital Agency",
     },
     {
         id: 3,
         img: testimg3,
         paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took  type scrambled it to make a type specimen book. It has survived not only five centuries,",
-        testname: "Jenny Wilson |",
-        course: "Digital Agency",
+        testname: "Jeey Wilson |",
+        course: "Digital Marketing",
     },
     {
         id: 4,
         img: testimg4,
         paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took  type scrambled it to make a type specimen book. It has survived not only five centuries,",
-        testname: "Jenny Wilson |",
-        course: "Digital Agency",
+        testname: "Jimmy Wilson |",
+        course: "Photoshop",
     },
     {
         id: 5,
         img: testimg5,
         paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took  type scrambled it to make a type specimen book. It has survived not only five centuries,",
         testname: "Jenny Wilson |",
-        course: "Digital Agency",
+        course: "UI UX Designer",
     },
     {
         id: 6,
@@ -163,6 +163,7 @@ export const TestCard = [
 export const TabCard = [
     {
         id: 1,
+        filter: 'filter1',
         img: tabimg1,
         paragraph: "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen.",
         heading: "Lorem Ipsum is ",
@@ -170,6 +171,7 @@ export const TabCard = [
     },
     {
         id: 2,
+        filter: 'filter2',
         img: tabimg2,
         paragraph: "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen.",
         heading: "Lorem Ipsum is ",
@@ -177,6 +179,7 @@ export const TabCard = [
     },
     {
         id: 3,
+        filter: 'filter2',
         img: tabimg3,
         paragraph: "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen.",
         heading: "Lorem Ipsum is ",
@@ -184,6 +187,7 @@ export const TabCard = [
     },
     {
         id: 4,
+        filter: 'filter3',
         img: tabimg4,
         paragraph: "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen.",
         heading: "Lorem Ipsum is ",
@@ -191,6 +195,7 @@ export const TabCard = [
     },
     {
         id: 5,
+        filter: 'filter2',
         img: tabimg5,
         paragraph: "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen.",
         heading: "Lorem Ipsum is ",
@@ -198,6 +203,7 @@ export const TabCard = [
     },
     {
         id: 6,
+        filter: 'filter3',
         img: tabimg6,
         paragraph: "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen.",
         heading: "Lorem Ipsum is ",
@@ -205,6 +211,7 @@ export const TabCard = [
     },
     {
         id: 7,
+        filter: 'filter1',
         img: tabimg7,
         paragraph: "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen.",
         heading: "Lorem Ipsum is ",
@@ -212,6 +219,7 @@ export const TabCard = [
     },
     {
         id: 8,
+        filter: 'filter1',
         img: tabimg8,
         paragraph: "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen.",
         heading: "Lorem Ipsum is ",
@@ -219,6 +227,7 @@ export const TabCard = [
     },
     {
         id: 9,
+        filter: 'filter3',
         img: tabimg9,
         paragraph: "Lorem Ipsum is simply  text of the printing and type setting industry. make a type specimen.",
         heading: "Lorem Ipsum is ",

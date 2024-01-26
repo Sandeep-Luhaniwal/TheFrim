@@ -2,16 +2,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import NavBar from './Compoments/Common/NavBar';
-import Footer from './Compoments/Common/Footer';
+import NavBar from './compoments/common/NavBar';
+import Footer from './compoments/common/Footer';
 import { Route, Routes } from 'react-router-dom';
-import Home from './Compoments/Pages/Home';
-import Solution from './Compoments/Pages/Solution';
-import Cases from './Compoments/Pages/Cases';
-import AboutUs from './Compoments/Pages/AboutUs';
-import Bloglink from './Compoments/Pages/Bloglink';
-import Contact from './Compoments/Pages/Contact';
-import BacktoTop from './Compoments/BacktoTop';
+import Home from './compoments/pages/Home';
+import Solution from './compoments/pages/Solution';
+import Cases from './compoments/pages/Cases';
+import AboutUs from './compoments/pages/AboutUs';
+import Bloglink from './compoments/pages/Bloglink';
+import Contact from './compoments/pages/Contact';
+import BacktoTop from './compoments/BacktoTop';
 
 function App() {
 

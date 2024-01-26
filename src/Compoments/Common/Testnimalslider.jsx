@@ -12,7 +12,8 @@ const Testnimalslider = () => {
         centerPadding: '10px',
         slidesToShow: 5,
         infinite: true,
-        autoplay: false,
+        autoplay: true,
+        // fade: true,
         speed: 300,
         dots: false,
         arrows: false,
@@ -38,6 +39,7 @@ const Testnimalslider = () => {
         slidesToShow: 1,
         autoplay: false,
         speed: 300,
+        fade: true,
     };
     return (
         <>

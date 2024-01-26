@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
-import Testnimalslider from '../Common/Testnimalslider'
-import CasesHero from '../CaseSection/CasesHero'
+import Testnimalslider from '../common/Testnimalslider'
+import CasesHero from '../caseSection/CasesHero'
 import Tabcases from '../Tabcases'
 import { useLocation } from 'react-router-dom'
 
